@@ -150,7 +150,7 @@ Since |buf_size| is strictly less than |long_buf_size|,
 some of \.{CWEB}'s routines use the fact that it is safe to refer to
 |*(limit+2)| without overstepping the bounds of the array.
 
-@d buf_size 1000 /* for \.{CWEAVE} and \.{CTANGLE} */
+@d buf_size 100 /* for \.{CWEAVE} and \.{CTANGLE} */
 @d longest_name 10000
 @d long_buf_size (buf_size+longest_name) /* for \.{CWEAVE} */
 @d xisspace(c) (isspace(c)&&((unsigned char)c<0200))

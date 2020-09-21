@@ -38,7 +38,7 @@
 #define period_ast 026
 #define minus_gt_ast 027 \
 
-#define buf_size 1000
+#define buf_size 100
 #define longest_name 10000
 #define long_buf_size (buf_size+longest_name) 
 #define xisspace(c) (isspace(c) &&((unsigned char) c<0200) ) 
